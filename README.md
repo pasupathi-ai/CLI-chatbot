@@ -3,14 +3,14 @@
 I started learning AI Engineering with one rule — don't just watch tutorials, build things.
 This is the first thing I built.
 
-A CLI chatbot that talks to Claude, GPT-4o, and Gemini.
+A CLI chatbot that talks to Claude, GPT, and Gemini.
 
 ---
 
 ## How it works
 
 ```
-Your message → Claude → GPT-4o → Gemini
+Your message → Claude → GPT → Gemini
 ```
 
 If one provider fails (no credits, rate limit, bad key), it automatically falls back to the next one.
@@ -19,7 +19,7 @@ If one provider fails (no credits, rate limit, bad key), it automatically falls 
 
 ## Features
 
-- Multi-provider fallback — Claude → GPT-4o → Gemini
+- Multi-provider fallback — Claude → GPT → Gemini
 - Multi-turn memory — full conversation context sent every call
 - Auto-save — history saved to `history/` after every reply
 - Debug mode — set `NEON_DEBUG=true` to see which provider is being tried
