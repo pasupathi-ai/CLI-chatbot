@@ -158,7 +158,7 @@ wheels = [
 ]
 
 [[package]]
-name = "chatbot"
+name = "cli-chatbot"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
